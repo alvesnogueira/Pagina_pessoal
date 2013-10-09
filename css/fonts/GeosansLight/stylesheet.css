@@ -1,0 +1,9 @@
+﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {
+	font-family:"GeosansLight";
+	src:url("fonts/GeosansLight/GeosansLight.eot?") format("eot"),
+	url("fonts/GeosansLight/GeosansLight.woff") format("woff"),
+	url("fonts/GeosansLight/GeosansLight.ttf") format("truetype"),
+	url("fonts/GeosansLight/GeosansLight.svg#GeosansLight") format("svg");
+	font-weight:normal;font-style:normal;
+}

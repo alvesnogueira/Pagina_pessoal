@@ -1,0 +1,150 @@
+* {
+  -webkit-box-sizing: border-box; /* Android ≤ 2.3, iOS ≤ 4 */
+     -moz-box-sizing: border-box; /* Firefox 1+ */
+          box-sizing: border-box; /* Chrome, IE 8+, Opera, Safari 5.1 */
+}
+
+@font-face {
+	font-family:"GeosansLight";
+	src:url("fonts/GeosansLight/GeosansLight.eot?") format("eot"),
+	url("fonts/GeosansLight/GeosansLight.woff") format("woff"),
+	url("fonts/GeosansLight/GeosansLight.ttf") format("truetype"),
+	url("fonts/GeosansLight/GeosansLight.svg#GeosansLight") format("svg");
+	font-weight:normal;font-style:normal;
+}
+.clear{
+	clear: both;
+}
+body{
+	font-family: "Helvetica";
+
+}
+body{
+	padding:0;
+	margin:0;
+	border:none;
+	font:11pt Arial, Helvetica, sans-serif;
+	outline:none;
+	
+	
+}
+header{
+	font-family:"Helvetica";
+	margin-top: 42px;
+
+}
+header h1{
+	font-size: 2.56em;
+}
+header h4{
+	font-size: 1.25em;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+#menu_top ul{
+	list-style-type: none;
+}
+#menu_top li{
+	display: inline;
+	padding: 16px;
+	float: right;
+	font-size: 17px;
+	font-family: "Helvetica";
+}
+#menu a:hover{
+	color: #7d7d7d;
+
+}
+nav{
+
+	margin: 0;
+	padding: 0;	
+	list-style-type: none;
+	float: left;
+	margin-top: 52px;
+	width: 22.91%;
+	height: 410px;
+	background: #333333;
+	position: relative;
+
+}
+nav ul{
+		list-style-type: none;
+		margin: 0px;
+		
+}
+nav li{
+	font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+	font-size: 1.375em;
+	border-bottom: 1px solid #252525;
+	display: block;
+	width: 100%;
+
+	
+}
+nav li a{
+	display: block;
+	color: #f5f5f5;
+	height: 35px;
+	padding: 7px 0px 0px 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+
+
+
+}
+
+nav li a:hover{
+	color: #fff;
+	background: #494949;
+}
+
+.conteiner{
+	float: right;
+	width: 72.91%;
+	margin: 1px solid #000000;
+}
+.conteiner img{
+	width: 100%;
+	height: auto;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	padding-top: 60px;
+}
+
+@media only screen and (max-width: 640px) {
+  .container {
+  float: none;
+  width: 100%;
+  }
+
+  .news .more {
+  float: none;
+  }
+}
+/**********
+	Curriculo
+	*************/
+.conteiner h1{
+	padding-bottom: 5px;
+
+}
+.conteiner p{
+	margin-left: 30px;
+}
+.conteiner dd{
+	max-width: 270px;
+	margin-left: 0px;
+	padding-left: 30px;
+}
+/**********
+	Hobbies
+	*************/
+.hobbies dd{
+	max-width: 500px;
+}
