@@ -1,7 +1,4 @@
 
-
-
-<div class="conteiner">
 	<?PHP
 
 	/* Selecinando os dados do Banco de dados */
@@ -19,6 +16,9 @@
 /* Exibindo o conteudo obitido'*/
 
 		?>
+
+<div class="conteiner">
+
 		<dl class="hobbies">
 			<dt>Web Design</dt>
 			<dd><?php echo $webdesign; ?></dd>'

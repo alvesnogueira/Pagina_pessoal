@@ -1,13 +1,35 @@
+	<?PHP
 
+	/* Selecinando os dados do Banco de dados */
+	$sql = "SELECT * FROM curriculo";
+	/* Buscandoo limite da tabela para exibição */
+	$limite = mysql_query($sql) or die(mysql_error());
+	/* Exibe a os dados na tela */
+	while ($sql = mysql_fetch_array($limite)) {
+		$cursos = $sql["cursos"];
+		$endereco = $sql["endereco"];
+		$experiencias = $sql["experiencias"];
+		$formacao = $sql["formacao"];
+		$habilidades = $sql["habilidades"];
+		$idiomas = $sql["idiomas"];
+		$nome = $sql["nome"];
+		$rua = $sql["Rua"];
+		$perfil = $sql["perfil"];
+		$telefone = $sql["telefone"];
+	
+		}
+
+/* Exibindo o conteudo obitido'*/
+
+		?>
 		<div class="conteiner">
-			<h1>Israel Alves Nogueira</h1>
+			<h1><?php echo $nome; ?></h1>
 
 			<h4>Perfil Profissional:</h4>
-			<p>Conhecimento Avançado em Informática, dinâmico gosto e tenho facilidade em trabalhar em equipe, boa comunicação, fácil habilidade em palestrar e exercer atividades em público.</p>
+			<p><?php echo $perfil; ?></p>
 			<h4>Formação Escolar:</h4>
 
-			<p>Ensino Médio Completo (Escola Estadual Cidade dos Meninos)
-				Sistemas de Informação (Anhanguera) 4º período</p>
+			<p><?php echo $formacao; ?></p>
 
 				<h4>Cursos Extracurriculares:</h4>
 
