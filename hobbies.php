@@ -21,16 +21,16 @@
 
 		<dl class="hobbies">
 			<dt>Web Design</dt>
-			<dd><?php echo $webdesign; ?></dd>'
+			<dd><?php echo utf8_encode($webdesign); ?></dd>
 
 			<dt>JavaScript</dt>
-			<dd><?PHP echo $javascript;?></dd>
+			<dd><?PHP echo utf8_encode($javascript);?></dd>
 
 			<dt>Css</dt>
-			<dd><?php echo $css;?></dd>
+			<dd><?php echo utf8_encode($css) ;?></dd>
 
 			<dt>PHP</dt>
-			<dd><?php echo $php;?></dd>
+			<dd><?php echo utf8_encode($php);?></dd>
 
 		</dl>
 

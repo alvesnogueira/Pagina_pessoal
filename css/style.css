@@ -137,11 +137,15 @@ footer{
 .conteiner p{
 	margin-left: 30px;
 }
+.conteiner dl{
+	margin-left: 30px;
+}
 .conteiner dd{
 	max-width: 270px;
 	margin-left: 0px;
 	padding-left: 30px;
 }
+
 /**********
 	Hobbies
 	*************/
